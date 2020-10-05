@@ -1,0 +1,13 @@
+﻿@page
+@model XOPOW.Pages.AddModel
+@{
+}
+<form method="post">
+    <input type="text" asp-for="@Model.Morodec.Name" value="" placeholder="Jméno">
+    <input type="number" asp-for="@Model.Morodec.Size" value="" placeholder="Velikost">
+    <input type="date" asp-for="@Model.Morodec.Date" value="" placeholder="Datum zrození">
+    <input type="text" asp-for="@Model.Morodec.LOLRank" value="" placeholder="LOL Rank">
+    <input type="text" asp-for="@Model.Morodec.Address" value="" placeholder="Adresa">
+    <input type="text" asp-for="@Model.Morodec.Term" value="" placeholder="Termínus">
+    <button type="submit">Odeslat</button>
+</form>
